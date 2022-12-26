@@ -21,6 +21,7 @@ app.post("/canciones", (req, res) => {
     fs.writeFileSync("songs.json", JSON.stringify(songs));
     res.send("Canción agregada con éxito!");
   });
+
 // Borrando canciones en songs.jsong
 app.delete("/canciones/:id", (req, res) => {
     const { id } = req.params;
@@ -30,6 +31,7 @@ app.delete("/canciones/:id", (req, res) => {
     fs.writeFileSync("songs.json", JSON.stringify(songs));
     res.send("Canción eliminada con éxito");
   });
+
 // Actualizando una Canción en songs.json
 app.put("/canciones/:id", (req, res) => {
     const { id } = req.params;
