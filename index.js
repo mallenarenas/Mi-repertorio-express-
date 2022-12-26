@@ -7,6 +7,10 @@ app.listen(3000, console.log("¡Servidor encendido!"));
 
 app.use(express.json())
 
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/index.html")
+    })
+
 // Leyendo songs.json
 app.get("/canciones", (req, res) => {
     const songs = JSON.parse(fs.readFileSync("songs.json"));
