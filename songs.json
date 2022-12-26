@@ -1,14 +1,1 @@
-[
-  {
-    "id": 1,
-    "Canción": "La Guitarra",
-    "Artista": "Los Auténticos Decadentes",
-    "Tono": "normal"
-  },
-  {
-    "id": 2,
-    "Canción": "Música Ligera",
-    "Artista": "Sode Stereo",
-    "Tono": "Bm"
-  }
-]
+[{"id":1,"titulo":"A Dios le pido","artista":"Juanes","tono":"Dm"},{"id":2,"titulo":"Música Ligera","artista":"Soda Stereo","tono":"Bm"}]
