@@ -1,1 +1,14 @@
-[{"id":1,"Canción":"A Dios le pido","Artista":"Juanes","Tono":"Dm"},{"id":2,"Canción":"Música Ligera","Artista":"Sode Stereo","Tono":"Bm"}]
+[
+  {
+    "id": 1,
+    "Canción": "La Guitarra",
+    "Artista": "Los Auténticos Decadentes",
+    "Tono": "normal"
+  },
+  {
+    "id": 2,
+    "Canción": "Música Ligera",
+    "Artista": "Sode Stereo",
+    "Tono": "Bm"
+  }
+]
